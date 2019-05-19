@@ -14,9 +14,5 @@ def about():
 def skills():
     return render_template("skills.html")
 
-@app.route('/Photo/')
-def photo():
-    return render_template("images/i.jpg")
-
 if __name__=="__main__":
     app.run(debug=True)
